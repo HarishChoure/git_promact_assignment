@@ -1,0 +1,13 @@
+Command to initialize git repository  :     git init
+Command to clone remote repository - git clone http/githublink
+Command to stage all changes  - git add -A
+Command to view state of working directory and staging area - git status
+ Command to create new branch - git branch branch_name
+ Command to change branch -  git checkout branch_name
+ Command to clean staging area - git reset HEAD <file name>
+Command to get commits and changes from remote branch (It should not merge changes in current branch). - git fetch [remote name]
+Command to get commits and changes from remote branch (It should merge changes in current branch). - git pull [remote name]
+Command to cherry pick commit which SHA =>  092018283103810930 - git cheery-pick 092018283103810930
+ Command to push branch - git push -u origin branch_name
+ Command to delete remote branch - git push origin --delete branch_name
+ Command to do iterative rebas - git rebase branch_name
